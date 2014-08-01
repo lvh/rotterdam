@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
+    'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -261,3 +262,6 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# -- Options for spelling output -------------------------------------------
+spelling_word_list_filename='spelling_wordlist.txt'
