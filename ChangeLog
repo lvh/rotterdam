@@ -1,0 +1,8 @@
+CHANGES
+=======
+
+* Don't use deps, install explicitly
+* Add docs checkenv
+* Add spelling checks
+* Add stub documentation
+* Initial commit

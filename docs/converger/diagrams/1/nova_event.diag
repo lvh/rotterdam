@@ -1,0 +1,13 @@
+seqdiag {
+        autonumber = True;
+        default_fontsize = 14;
+
+        nova_events [label="Nova Events"];
+        converger [label="Converger"];
+        nova [label="Nova"];
+        clb [label="CLB"];
+
+        nova_events ->> converger [label="d up!"];
+        converger => nova [label="machines for tenant of A?", return="{a, b, c, d}"];
+        converger => clb [label="add d to A!", return="ok"];
+}

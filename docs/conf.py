@@ -33,7 +33,8 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'sphinxcontrib.spelling'
+    'sphinxcontrib.spelling',
+    'sphinxcontrib.seqdiag'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -264,4 +265,7 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 # -- Options for spelling output -------------------------------------------
-spelling_word_list_filename='spelling_wordlist.txt'
+spelling_word_list_filename = 'spelling_wordlist.txt'
+
+# -- Options for seqdiag -------------------------------------------
+seqdiag_fontpath =  os.path.join(os.path.dirname(__file__), "DejaVuSans.ttf")
