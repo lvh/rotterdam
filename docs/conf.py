@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinxcontrib.spelling',
+    'sphinxcontrib.blockdiag',
     'sphinxcontrib.seqdiag'
 ]
 
@@ -267,5 +268,7 @@ texinfo_documents = [
 # -- Options for spelling output -------------------------------------------
 spelling_word_list_filename = 'spelling_wordlist.txt'
 
-# -- Options for seqdiag -------------------------------------------
-seqdiag_fontpath =  os.path.join(os.path.dirname(__file__), "DejaVuSans.ttf")
+# -- Options for seqdiag, blockdiag... -------------------------------------
+diag_fontpath = os.path.join(os.path.dirname(__file__), "DejaVuSans.ttf")
+seqdiag_fontpath = blockdiag_fontpath = diag_fontpath
+seqdiag_antialias = blockdiag_antialias = True

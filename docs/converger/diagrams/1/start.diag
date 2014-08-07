@@ -1,15 +1,15 @@
 seqdiag {
         autonumber = True;
-        default_fontsize = 16;
+        default_fontsize = 14;
 
         planner [label="Planner"];
         converger [label="Converger"];
         nova [label="Nova"];
         clb [label="CLB"];
 
-        planner ->> converger [label="Group A: 5 machines!"];
+        planner ->> converger [label="A: 5 servers!"];
 
-        converger => clb [label="machines in A?", return="{a, b, c}"];
-        converger => nova [label="machines for tenant of A?", return="{a, b, c}"];
-        converger => nova [label="+2 machines in A!", return="{d, e}"];
+        converger => clb [label="servers in A?", return="{a, b, c}"];
+        converger => nova [label="servers for α?", return="{a, b, c}"];
+        converger => nova [label="α: +2 servers!", return="{d, e}"];
 }

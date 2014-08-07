@@ -1,0 +1,18 @@
+blockdiag {
+  orientation = portrait;
+  default_fontsize = 14;
+
+  user [label="User"];
+  policies [label="Policies", shape=flowchart.database];
+
+  planner [label="Σ"];
+  converger [label="Converger"];
+  nova [label="Nova"];
+  clb [label="CLB"];
+
+  user -> policies -> planner;
+
+  planner -> converger;
+
+  converger -> nova, clb;
+}

@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Initial work on documentation
 * Don't use deps, install explicitly
 * Add docs checkenv
 * Add spelling checks

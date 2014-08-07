@@ -1,0 +1,11 @@
+blockdiag {
+          class attr [shape=roundedbox];
+          class entity [shape=box];
+          class rel [shape=diamond];
+
+          group [label="Scaling Group", class="entity"];
+          clbid [label="Load balancer id", class="attr"];
+          desired [label="Desired capacity", class="attr"];
+          launch_config [label="Launch configuration", class="attr"];
+          group -> clbid, desired, launch_config;
+}

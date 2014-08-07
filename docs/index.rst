@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   overview.rst
+   planner/index.rst
    converger/index.rst
 
 Indices and tables

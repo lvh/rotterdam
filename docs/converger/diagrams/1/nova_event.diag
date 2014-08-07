@@ -7,7 +7,7 @@ seqdiag {
         nova [label="Nova"];
         clb [label="CLB"];
 
-        nova_events ->> converger [label="d up!"];
-        converger => nova [label="machines for tenant of A?", return="{a, b, c, d}"];
+        nova_events ->> converger [label="d is up!"];
+        converger => nova [label="servers for α?", return="{a, b, c, d}"];
         converger => clb [label="add d to A!", return="ok"];
 }

@@ -11,5 +11,6 @@ pyroma==1.6
 sphinx==1.2.2
 sphinxcontrib-spelling==2.1.1
 pyenchant==1.6.6
+sphinxcontrib-blockdiag==1.4.4
 sphinxcontrib-seqdiag==0.7.2
 doc8==0.3.4
