@@ -76,9 +76,7 @@ servers Nova knows about, the output is how many servers to ask for.
 As an early prototype, it does this by talking to Nova at most once in
 a (variable) amount of time.
 
-
-This can be made more sophisticated at a
-later date, as necessary.
+This can be made more sophisticated at a later date, as necessary.
 
 Workers and work distribution
 -----------------------------
