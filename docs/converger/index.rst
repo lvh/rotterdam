@@ -96,4 +96,6 @@ Limiting impersonation tokens
 -----------------------------
 
 Otter relies on creating impersonation tokens. These are limited-use,
-but it would still be nice if such a high-authority
+but it would still be nice if such a high-authority capability (the
+ability to produce such impersonation tokens) was encapsulated in a
+smaller, easier-to-audit component.
